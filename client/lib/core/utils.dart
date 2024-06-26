@@ -32,3 +32,11 @@ Future<File?> pickImage() async {
     return null;
   }
 }
+
+String rbgToHex(Color color) {
+  return '${color.red.toRadixString(16).padLeft(2)} ${color.green.toRadixString(16).padLeft(2)} ${color.blue.toRadixString(16).padLeft(2)} ';
+}
+
+Color hexToColor(String hex) {
+  return Color(int.parse(hex, radix: 16) + 0xFF000000);
+}
