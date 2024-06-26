@@ -1,5 +1,5 @@
-import 'package:client/auth/view/pages/singup_page.dart';
 import 'package:client/core/theme/theme.dart';
+import 'package:client/features/auth/view/pages/singup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

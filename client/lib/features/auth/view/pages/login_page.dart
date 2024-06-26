@@ -1,8 +1,8 @@
-import 'package:client/auth/repositories/auth_remote_repository.dart';
-import 'package:client/auth/view/pages/singup_page.dart';
-import 'package:client/auth/view/widgets/auth_gradient_button.dart';
-import 'package:client/auth/view/widgets/custom_field.dart';
 import 'package:client/core/theme/app_pallete.dart';
+import 'package:client/features/auth/repositories/auth_remote_repository.dart';
+import 'package:client/features/auth/view/pages/singup_page.dart';
+import 'package:client/features/auth/view/widgets/auth_gradient_button.dart';
+import 'package:client/features/auth/view/widgets/custom_field.dart';
 import 'package:flutter/material.dart';
 import 'package:fpdart/fpdart.dart';
 
