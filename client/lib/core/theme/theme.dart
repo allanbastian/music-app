@@ -8,11 +8,13 @@ class AppTheme {
       );
 
   static final darkThemeMode = ThemeData.dark().copyWith(
-    scaffoldBackgroundColor: Pallete.backgroundColor,
-    inputDecorationTheme: InputDecorationTheme(
-      contentPadding: const EdgeInsets.all(27),
-      focusedBorder: _border(Pallete.gradient2),
-      enabledBorder: _border(Pallete.borderColor),
-    ),
-  );
+      scaffoldBackgroundColor: Pallete.backgroundColor,
+      inputDecorationTheme: InputDecorationTheme(
+        contentPadding: const EdgeInsets.all(27),
+        focusedBorder: _border(Pallete.gradient2),
+        enabledBorder: _border(Pallete.borderColor),
+      ),
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+        backgroundColor: Pallete.backgroundColor,
+      ));
 }
